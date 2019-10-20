@@ -11,28 +11,28 @@ f(1) =>
 
 f(2) => 
 
-|1, 1|
+|1, 1|  
 |1, 1|
  
 f(3) =>
 
-|1, 1, 1|
-|1, 2, 1|
+|1, 1, 1|  
+|1, 2, 1|  
 |1, 1, 1|
 
 f(4) =>
 
-|1, 1, 1, 1|
-|1, 2, 2, 1|
-|1, 2, 2, 1|
+|1, 1, 1, 1|  
+|1, 2, 2, 1|  
+|1, 2, 2, 1|  
 |1, 1, 1, 1|
 
 f(5) =>
 
-|1, 1, 1, 1, 1|
-|1, 2, 2, 2, 1|
-|1, 2, 3, 2, 1|
-|1, 2, 2, 2, 1|
+|1, 1, 1, 1, 1|  
+|1, 2, 2, 2, 1|  
+|1, 2, 3, 2, 1|  
+|1, 2, 2, 2, 1|  
 |1, 1, 1, 1, 1|
 
 ## Solução
@@ -44,11 +44,13 @@ Ex:
 
 matriz de 2x2:
 
-|1(0), 1(1)|
+|1(0), 1(1)|  
 |1(2), 1(3)|
 
 o valor entre parênteses representa o indice do elemento na função. De forma que, aplicando na função cada valor do elemento 
 representa x em f(x).
 
 
-
+## Issues
+- A constante PROPAGATION deve ser transformada em função de N;
+- A partir do tamanho 8x8 (n = 8) a matriz está incorreta, a equação do Oscilador Harmônico Quântico perde precisão, portanto precisa ser ajustada.
