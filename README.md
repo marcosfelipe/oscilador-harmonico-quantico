@@ -35,6 +35,9 @@ f(5) =>
 |1, 2, 2, 2, 1|  
 |1, 1, 1, 1, 1|
 
+## Condição para Solução!!
+Deve ser utilizada no máximo UMA declaração de condição (if) ao percorrer os elementos. Ou seja, a solução deve ser uma função do elemento, deve-se evitar "conjunto de soluções". 
+
 ## Solução
 
 O arquivo ohq_v2_debug.rb contém a solução usando a função de Oscilador Harmônico Quântico modificada. A função se comporta
@@ -54,3 +57,4 @@ representa x em f(x).
 ## Issues
 - A constante PROPAGATION deve ser transformada em função de N;
 - A partir do tamanho 8x8 (n = 8) a matriz está incorreta, a equação do Oscilador Harmônico Quântico perde precisão, portanto precisa ser ajustada.
+- Os polinômios de Hermite deve ser transformada em função de N;
